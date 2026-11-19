@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Dataset biner (ukuran besar, tidak di-commit ke repository)
+# Hanya metadata.csv dan script yang di-commit ke Git.
+# File citra GeoTIFF (.tif) dan PNG hasil konversi diunduh langsung via Google Drive.
+dataset/**/*.tif
+dataset/**/*.tiff
+dataset/**/*.png
+dataset/**/*.zip
+dataset_demak_tubes/
+dataset_demak_tubes.zip
+*.tif
+*.tiff
+
+# GEE exports manifest lokal
+export_manifest.csv
+
+# IDE / Editor & Sistem Operasi
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
